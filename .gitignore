@@ -1,2 +1,32 @@
-*.rbc
-*.fyc
+# 💠 baseVCLA - Konversi Mata Uang via Terminal, Gampang Banget!
+
+**baseVCLA** itu kayak temen kamu yang paling cepet bantuin kalau lagi bingung ngitung kurs mata uang.  
+Dibikin simpel, ringan, dan langsung jalan dari terminal. Gak perlu buka browser, gak perlu ribet. Cuma tinggal ketik, langsung dapet!
+
+💡 Buat lo yang:
+- Sering ngoding dan butuh data kurs buat project
+- Lagi liburan dan pengin tau konversi IDR ke mata uang lain
+- Lagi trading dan pengen pantau nilai tukar
+- Atau cuma sekadar iseng ngecek harga dollar
+
+...**tools ini cocok banget buat lo.**
+
+---
+
+## 😎 Kenapa Harus Pakai baseVCLA?
+
+- Gak perlu daftar apa-apa.
+- Real-time, datanya langsung dari exchangerate.host.
+- Bisa dipake di semua OS yang ada Python-nya.
+- Cuma butuh 1 library: `requests`.
+
+---
+
+## 🚀 Cara Pakainya
+
+```bash
+$ python basevcla.py
+Masukkan mata uang asal (contoh: USD): USD
+Masukkan mata uang tujuan (contoh: IDR): IDR
+Masukkan jumlah: 100
+💱 100 USD = 1592300.0 IDR
